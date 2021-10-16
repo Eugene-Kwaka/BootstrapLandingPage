@@ -1,0 +1,18 @@
+@media(min-width: 768px){
+    .news-input{
+        width: 50%;
+    }
+}
+
+/* This will put a ghost element of 60px so that it pushes it back down */
+body::before{
+    display: block;
+    content: '';
+    height: 60px;
+}
+
+#map{
+    width:100%;
+    height:100%;
+    border-radius: 10px;
+}
